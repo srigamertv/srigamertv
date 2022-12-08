@@ -8,8 +8,7 @@
 
 <div style="display: inline_block"><br>
   <img align="center" alt="gamer-lua" heigth="30"width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-plain-wordmark.svg">
-  <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="right"alt="SR.IGAMER TV"height="150"style="borderradius:50px;"src="https://media.discordapp.net/attachments/1031379030374617089/1049705619432689714/LOGO.png">
+  <img align="right"alt="srgamertv"height="150"style="borderradius:50px;"src="https://media.discordapp.net/attachments/1031379030374617089/1049705619432689714/LOGO.png">
 </div>
   
   ##
