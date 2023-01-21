@@ -1,10 +1,17 @@
 ## Olá eu sou SR.IGAMER TV, Criador de conteúdo de progrmação e tecnologia etc...
  
-<div>
- <a href="https://github.com/srigamertv">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=srigamertv&layout=compact&langs_count=7&theme=highcontrast"/>
-</div>
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true" />
+</picture>
+
 <div style="display: inline_block"><br>
   <img align="center" alt="gamer-lua" heigth="30"width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-plain-wordmark.svg">
   <img align="right"alt="srgamertv"height="150"style="borderradius:50px;"src="https://media.discordapp.net/attachments/1031379030374617089/1049705619432689714/LOGO.png">
