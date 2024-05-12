@@ -14,9 +14,9 @@
 
 <div style="display: inline_block"><br>
   <img align="center" alt="HTML5" height="40" width="45" src="https://devicon-website.vercel.app/api/html5/plain-wordmark.svg"></img>
- <img align="center" alt="HTML5" height="40" width="45" src="https://devicon-website.vercel.app/api/css3/plain-wordmark.svg"></img>
-  <img align="center" alt="gamer-lua" heigth="30"width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-plain-wordmark.svg">
-  <img align="right"alt="srgamertv"height="150"style="borderradius:50px;"src="https://cdn.discordapp.com/attachments/1031379030374617089/1137025800022016040/NOVA_LOGO_DO_CANAL_PNG.png">
+  <img align="center" alt="CSS3" height="40" width="45" src="https://devicon-website.vercel.app/api/css3/plain-wordmark.svg"></img>
+  <img align="center" alt="LUA" height="40" width="45" src="https://devicon-website.vercel.app/api/lua/plain-wordmark.svg"></img>
+  <img align="right"alt="srgamertv"height="150"style="borderradius:50px;"src="https://cdn.discordapp.com/attachments/1031379030374617089/1137025837460369531/NOVA_LOGO_DO_CANAL.png?ex=66422054&is=6640ced4&hm=826d37e337a94b51607f41d4397e3a85753203d86b54a1088b0a81ed7f340b67&">
 </div>
   
   ##
