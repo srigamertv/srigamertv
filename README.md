@@ -16,7 +16,7 @@
   <img align="center" alt="HTML5" height="40" width="45" src="https://devicon-website.vercel.app/api/html5/plain-wordmark.svg"></img>
   <img align="center" alt="CSS3" height="40" width="45" src="https://devicon-website.vercel.app/api/css3/plain-wordmark.svg"></img>
   <img align="center" alt="LUA" height="40" width="45" src="https://devicon-website.vercel.app/api/lua/plain-wordmark.svg"></img>
-  <img align="right"alt="srgamertv"height="150"style="borderradius:50px;"src="https://cdn.discordapp.com/attachments/1031379030374617089/1137025837460369531/NOVA_LOGO_DO_CANAL.png?ex=672ec594&is=672d7414&hm=16b8d35bb8481a4f77613d51e6186d5f87c70e567cd9f5057b0766fabe9f15cc&">
+  <img align="right"alt="srgamertv"height="150"style="borderradius:50px;"src="https://i.imgur.com/xc39HFu.png">
 </div>
   
   ##
