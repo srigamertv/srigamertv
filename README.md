@@ -44,26 +44,15 @@
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true&theme=dark&include_all_commits=true&count_private=true"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true&include_all_commits=true&count_private=true"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img 
-      height="170"
-      src="https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true&include_all_commits=true&count_private=true" 
-      alt="GitHub Stats de SR.IGAMER TV"
-    />
-  </picture>
-
   <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=srigamertv&layout=compact&theme=dark"
-    alt="Linguagens mais usadas"
+    height="180"
+    src="./assets/github-stats.svg"
+    alt="Estatísticas do GitHub de SR.IGAMER TV"
+  />
+  <img
+    height="180"
+    src="./assets/top-langs.svg"
+    alt="Linguagens mais usadas por SR.IGAMER TV"
   />
 </p>
 
