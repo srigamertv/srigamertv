@@ -3,7 +3,7 @@ name: Update GitHub Stats Cards
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *" # a cada 12 horas
+    - cron: "0 */12 * * *"
 
 permissions:
   contents: write
@@ -19,13 +19,33 @@ jobs:
       - name: Criar pasta assets
         run: mkdir -p assets
 
-      - name: Baixar card de estatísticas
+      - name: Baixar cards (temporários)
         run: |
-          curl -L "https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true&include_all_commits=true&theme=dark&hide_border=true&locale=pt-br&rank_icon=github&custom_title=Estat%C3%ADsticas%20do%20GitHub" -o assets/github-stats.svg
+          set -e
 
-      - name: Baixar card de linguagens
+          STATS_URL="https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true&include_all_commits=true&theme=dark&hide_border=true&locale=pt-br&rank_icon=github&custom_title=Estat%C3%ADsticas%20do%20GitHub"
+          LANGS_URL="https://github-readme-stats.vercel.app/api/top-langs/?username=srigamertv&layout=compact&langs_count=8&theme=dark&hide_border=true&locale=pt-br&card_width=360"
+
+          curl --fail --location --retry 5 --retry-delay 3 --retry-all-errors "$STATS_URL" -o assets/github-stats.tmp.svg
+          curl --fail --location --retry 5 --retry-delay 3 --retry-all-errors "$LANGS_URL" -o assets/top-langs.tmp.svg
+
+      - name: Validar SVGs
         run: |
-          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=srigamertv&layout=compact&langs_count=8&theme=dark&hide_border=true&locale=pt-br&card_width=360" -o assets/top-langs.svg
+          set -e
+
+          grep -qi "<svg" assets/github-stats.tmp.svg
+          grep -qi "<svg" assets/top-langs.tmp.svg
+
+          # (opcional) evita salvar resposta de erro disfarçada
+          ! grep -qi "bad gateway" assets/github-stats.tmp.svg
+          ! grep -qi "bad gateway" assets/top-langs.tmp.svg
+          ! grep -qi "error" assets/github-stats.tmp.svg || true
+          ! grep -qi "error" assets/top-langs.tmp.svg || true
+
+      - name: Substituir arquivos finais
+        run: |
+          mv -f assets/github-stats.tmp.svg assets/github-stats.svg
+          mv -f assets/top-langs.tmp.svg assets/top-langs.svg
 
       - name: Commitar alterações (se houver)
         run: |
