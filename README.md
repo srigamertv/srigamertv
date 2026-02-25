@@ -36,6 +36,7 @@
 <p align="left">
   <img align="center" alt="HTML5" height="40" width="45" src="https://devicon-website.vercel.app/api/html5/plain-wordmark.svg" />
   <img align="center" alt="CSS3" height="40" width="45" src="https://devicon-website.vercel.app/api/css3/plain-wordmark.svg" />
+  <img align="center" alt="JavaScript" height="40" width="45" src="https://devicon-website.vercel.app/api/javascript/plain.svg" />
   <img align="center" alt="Lua" height="40" width="45" src="https://devicon-website.vercel.app/api/lua/plain-wordmark.svg" />
 </p>
 
