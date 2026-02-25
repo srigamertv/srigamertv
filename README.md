@@ -75,9 +75,3 @@
   Quer trocar ideia sobre projetos, scripts ou conteúdo?<br>
   Me chama nas redes acima ou por e-mail: <strong>kelvinsom22kb@gmail.com</strong>
 </p>
-
----
-
-<p align="center">
-  <img alt="SR.IGAMER TV" height="150" src="https://i.imgur.com/xc39HFu.png" />
-</p>
