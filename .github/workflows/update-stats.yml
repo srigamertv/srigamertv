@@ -1,0 +1,42 @@
+name: Update GitHub Stats Cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *" # a cada 12 horas
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Criar pasta assets
+        run: mkdir -p assets
+
+      - name: Baixar card de estatísticas
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api?username=srigamertv&show_icons=true&include_all_commits=true&theme=dark&hide_border=true&locale=pt-br&rank_icon=github&custom_title=Estat%C3%ADsticas%20do%20GitHub" -o assets/github-stats.svg
+
+      - name: Baixar card de linguagens
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=srigamertv&layout=compact&langs_count=8&theme=dark&hide_border=true&locale=pt-br&card_width=360" -o assets/top-langs.svg
+
+      - name: Commitar alterações (se houver)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-stats.svg assets/top-langs.svg
+
+          if git diff --staged --quiet; then
+            echo "Sem alterações para commit."
+          else
+            git commit -m "chore: atualizar cards de estatísticas"
+            git push
+          fi
