@@ -1,26 +1,26 @@
 <h1 align="center">Olá, eu sou SR.IGAMER TV 👋</h1>
 
 <p align="center">
-  Criador de conteúdo sobre <strong>programação</strong> e <strong>tecnologia</strong><br>
+  Criador de conteúdo sobre <strong>programação</strong> e <strong>tecnologia</strong><br/>
   Desenvolvedor com foco em <strong>Lua</strong>, <strong>FiveM</strong> e <strong>RedM</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/@SRIGAMERTV" target="_blank">
+  <a href="https://www.youtube.com/@SRIGAMERTV" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
-  <a href="https://www.instagram.com/sr.igamer_tv" target="_blank">
+  </a><!--
+  --><a href="https://www.instagram.com/sr.igamer_tv" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://discord.gg/kh2KTGvaVX" target="_blank">
+  </a><!--
+  --><a href="https://discord.gg/kh2KTGvaVX" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-  <a href="mailto:kelvinsom22kb@gmail.com">
+  </a><!--
+  --><a href="mailto:kelvinsom22kb@gmail.com" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/Gmail-DB4437?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </p>
 
----
+<hr/>
 
 ## 🚀 Sobre mim
 
