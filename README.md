@@ -45,14 +45,17 @@
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
+  <a href="https://github.com/stats-organization/github-stats-extended">
+    <img
+      height="180"
+      src="https://github-stats-extended.vercel.app/api?username=srigamertv&show_icons=true&theme=transparent&locale=pt-br&hide_border=true&card_width=420"
+      alt="Estatísticas do GitHub de SR.IGAMER TV"
+    />
+  </a>
+
   <img
     height="180"
-    src="./assets/github-stats.svg"
-    alt="Estatísticas do GitHub de SR.IGAMER TV"
-  />
-  <img
-    height="180"
-    src="./assets/top-langs.svg"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=srigamertv&layout=compact&langs_count=12&hide=html,css&theme=transparent&locale=pt-br&hide_border=true&card_width=360"
     alt="Linguagens mais usadas por SR.IGAMER TV"
   />
 </p>
