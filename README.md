@@ -34,7 +34,7 @@
 ## 🚀 Sobre mim
 
 - 🎯 Focado em desenvolvimento para **FiveM** e **RedM**
-- 🧠 Trabalho com **Lua**, principalmente em frameworks como **vRP/vRPex/Creative ** e **VORP**
+- 🧠 Trabalho com **Lua**, principalmente em frameworks como **vRP/vRPex/Creative** e **VORP**
 - 🛠️ Criação de sistemas, interfaces (NUI), scripts personalizados e integrações
 - 📹 Produzo conteúdo sobre programação e tecnologia
 
