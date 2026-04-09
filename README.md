@@ -71,7 +71,7 @@
 ## 🎮 Especialidades
 
 - Scripts personalizados para **FiveM / RedM**
-- Sistemas com **vRP / vRPex / VORP**
+- Sistemas com **vRP / vRPex / Creative / VORP / QBCORE / ESX**
 - Interfaces **NUI (HTML, CSS, JS)**
 - Integrações com **webhooks**, logs e automações
 - Organização de código e estrutura de recursos
